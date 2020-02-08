@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:\Users\Andrew\Desktop\psinterface\psinterface\psinterface.sch)
-    (date "2/6/2020 9:39:38 PM")
+    (source C:\Users\Andrew\Desktop\AWSD-PS-Interface-master\psinterface.sch)
+    (date "2/7/2020 9:30:43 PM")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -52,7 +52,7 @@
       (tstamp 5E3F093F))
     (comp (ref J6)
       (value Conn_01x03)
-      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical)
+      (footprint Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill1mm)
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_01x03) (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
