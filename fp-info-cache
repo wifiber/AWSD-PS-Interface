@@ -1,4 +1,4 @@
-16928434138127463
+16930015410796404
 Andrew-Custom
 8AWG_WIRE_THROUGH_1Pin
 Single banana socket, footprint - 6mm drill
@@ -20,6 +20,13 @@ mounting hole 3.2mm m3 din965
 0
 10
 10
+Andrew-Custom
+SolderJumper-3_P3.5mm_Open_Pad3.0x3.0mm
+SMD Solder 3-pad Jumper, 3x3mm Pads, 0.5mm gap, open
+solder jumper open
+0
+3
+3
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)

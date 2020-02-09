@@ -16,13 +16,13 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_02x06_Top_Bottom J3
 U 1 1 5E3CE40B
-P 5300 4100
-F 0 "J3" V 5350 4050 50  0000 R CNN
-F 1 "Conn_02x06_Top_Bottom" V 3750 4550 50  0001 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical" H 5300 4100 50  0001 C CNN
-F 3 "~" H 5300 4100 50  0001 C CNN
-	1    5300 4100
-	0    -1   -1   0   
+P 5100 4800
+F 0 "J3" V 5150 4750 50  0000 R CNN
+F 1 "Conn_02x06_Top_Bottom" V 3550 5250 50  0001 R CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical" H 5100 4800 50  0001 C CNN
+F 3 "~" H 5100 4800 50  0001 C CNN
+	1    5100 4800
+	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x10 J2
@@ -38,12 +38,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x04_Top_Bottom J1
 U 1 1 5E3D6394
-P 4650 4000
-F 0 "J1" V 4700 3900 50  0000 L CNN
-F 1 "Conn_02x04_Top_Bottom" V 6100 3550 50  0001 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical" H 4650 4000 50  0001 C CNN
-F 3 "~" H 4650 4000 50  0001 C CNN
-	1    4650 4000
+P 4000 4800
+F 0 "J1" V 4050 4700 50  0000 L CNN
+F 1 "Conn_02x04_Top_Bottom" V 5450 4350 50  0001 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical" H 4000 4800 50  0001 C CNN
+F 3 "~" H 4000 4800 50  0001 C CNN
+	1    4000 4800
 	0    1    1    0   
 $EndComp
 $Comp
@@ -58,131 +58,17 @@ F 3 "~" H 6800 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 3300 4650 3350
-Wire Wire Line
-	4650 3350 4550 3350
-Wire Wire Line
-	4550 3350 4550 3800
-Wire Wire Line
-	4550 3350 4450 3350
-Wire Wire Line
-	4450 3350 4450 3800
-Connection ~ 4550 3350
-Wire Wire Line
-	4450 3350 4350 3350
-Wire Wire Line
-	4350 3350 4350 4350
-Wire Wire Line
-	4350 4350 4450 4350
-Wire Wire Line
-	4550 4350 4550 4300
-Connection ~ 4450 3350
-Wire Wire Line
-	4450 4300 4450 4350
-Connection ~ 4450 4350
-Wire Wire Line
-	4450 4350 4550 4350
-Wire Wire Line
-	4650 4300 4650 4350
-Wire Wire Line
-	4650 4350 4750 4350
-Wire Wire Line
-	4850 4350 4850 3700
-Wire Wire Line
-	4750 4300 4750 4350
-Connection ~ 4750 4350
-Wire Wire Line
-	4750 4350 4850 4350
-Wire Wire Line
-	4650 3800 4650 3700
-Wire Wire Line
-	4650 3700 4750 3700
-Connection ~ 4850 3700
-Wire Wire Line
-	4850 3700 4850 3650
-Wire Wire Line
-	4750 3800 4750 3700
-Connection ~ 4750 3700
-Wire Wire Line
-	4750 3700 4850 3700
-Wire Wire Line
 	4750 3300 4750 3350
 Wire Wire Line
-	4750 3350 4850 3350
-Connection ~ 4850 3350
+	4750 3350 4800 3350
 Wire Wire Line
 	4850 3350 4850 3300
 Wire Wire Line
-	5300 4300 5300 4450
-Wire Wire Line
-	5400 4300 5400 4450
-Wire Wire Line
-	5400 4450 5300 4450
-Connection ~ 5300 4450
-Wire Wire Line
 	4950 3300 4950 3350
-Wire Wire Line
-	4950 4400 5100 4400
-Wire Wire Line
-	5200 4400 5200 4300
-Wire Wire Line
-	5100 4300 5100 4400
-Connection ~ 5100 4400
-Wire Wire Line
-	5100 4400 5200 4400
-Wire Wire Line
-	5200 3800 5200 3700
-Wire Wire Line
-	5200 3700 5100 3700
-Connection ~ 4950 3700
-Wire Wire Line
-	4950 3700 4950 4400
-Wire Wire Line
-	5100 3800 5100 3700
-Connection ~ 5100 3700
-Wire Wire Line
-	5100 3700 4950 3700
 Wire Wire Line
 	5050 3300 5050 3350
 Wire Wire Line
-	5050 3350 4950 3350
-Connection ~ 4950 3350
-Wire Wire Line
-	4950 3350 4950 3700
-Wire Wire Line
-	5150 3300 5150 3600
-Wire Wire Line
-	5150 3600 5600 3600
-Wire Wire Line
-	5750 3600 5750 4450
-Wire Wire Line
-	5750 4450 5600 4450
-Wire Wire Line
-	5600 4450 5600 4300
-Wire Wire Line
-	5600 3800 5600 3600
-Connection ~ 5600 3600
-Wire Wire Line
-	5600 3600 5750 3600
-Wire Wire Line
-	5250 3300 5250 3550
-Wire Wire Line
-	5250 3550 5500 3550
-Wire Wire Line
-	5500 3550 5500 3800
-Wire Wire Line
-	5500 4300 5500 4500
-Wire Wire Line
-	5500 4500 5800 4500
-Wire Wire Line
-	5800 4500 5800 3550
-Wire Wire Line
-	5800 3550 5500 3550
-Connection ~ 5500 3550
-Wire Wire Line
-	5550 3300 6600 3300
-Wire Wire Line
-	5450 3300 5450 3350
+	5050 3350 5000 3350
 $Comp
 L Connector_Generic:Conn_01x01 J5
 U 1 1 5E3F093F
@@ -194,14 +80,6 @@ F 3 "~" H 6800 4000 50  0001 C CNN
 	1    6800 4000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5350 3300 5350 3400
-Wire Wire Line
-	5350 3400 6400 3400
-Wire Wire Line
-	6400 3400 6400 4000
-Wire Wire Line
-	6400 4000 6500 4000
 $Comp
 L Connector_Generic:Conn_01x03 J6
 U 1 1 5E3F337E
@@ -226,52 +104,6 @@ F 3 "~" H 6100 4750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6600 4750 6300 4750
-Wire Wire Line
-	5300 4450 5300 4550
-Wire Wire Line
-	5300 4550 6600 4550
-Wire Wire Line
-	5900 4850 4450 4850
-Wire Wire Line
-	4450 4350 4450 4850
-Wire Wire Line
-	4850 4350 4850 4550
-Wire Wire Line
-	4850 4550 5300 4550
-Connection ~ 4850 4350
-Connection ~ 5300 4550
-Wire Wire Line
-	4950 4400 4950 4650
-Wire Wire Line
-	4950 4650 5900 4650
-Connection ~ 4950 4400
-Connection ~ 5750 4450
-Wire Wire Line
-	5300 3800 5300 3650
-Wire Wire Line
-	5300 3650 4850 3650
-Connection ~ 4850 3650
-Wire Wire Line
-	4850 3650 4850 3350
-Wire Wire Line
-	5400 3800 5400 3650
-Wire Wire Line
-	5400 3650 5300 3650
-Connection ~ 5300 3650
-Wire Wire Line
-	6600 4650 7000 4650
-Wire Wire Line
-	7000 4650 7000 4450
-Wire Wire Line
-	5750 4450 7000 4450
-Wire Wire Line
-	6600 3300 6600 3400
-Wire Wire Line
-	6500 3350 6500 3600
-Wire Wire Line
-	6500 3600 6600 3600
-Wire Wire Line
-	5450 3350 6500 3350
 NoConn ~ 6600 3500
 NoConn ~ 6600 3700
 Wire Wire Line
@@ -284,23 +116,147 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5E3FD440
-P 4500 5100
-F 0 "H1" H 4600 5146 50  0000 L CNN
-F 1 "MountingHole" H 4600 5055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 4500 5100 50  0001 C CNN
-F 3 "~" H 4500 5100 50  0001 C CNN
-	1    4500 5100
+P 3550 3300
+F 0 "H1" H 3650 3346 50  0000 L CNN
+F 1 "MountingHole" H 3650 3255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 3550 3300 50  0001 C CNN
+F 3 "~" H 3550 3300 50  0001 C CNN
+	1    3550 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5E3FEA25
-P 4500 5350
-F 0 "H2" H 4600 5396 50  0000 L CNN
-F 1 "MountingHole" H 4600 5305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 4500 5350 50  0001 C CNN
-F 3 "~" H 4500 5350 50  0001 C CNN
-	1    4500 5350
+P 3550 3550
+F 0 "H2" H 3650 3596 50  0000 L CNN
+F 1 "MountingHole" H 3650 3505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 3550 3550 50  0001 C CNN
+F 3 "~" H 3550 3550 50  0001 C CNN
+	1    3550 3550
 	1    0    0    -1  
 $EndComp
+Connection ~ 4800 3350
+Wire Wire Line
+	4800 3350 4850 3350
+Connection ~ 5000 3350
+Wire Wire Line
+	5000 3350 4950 3350
+Wire Wire Line
+	6600 3300 6600 3400
+Wire Wire Line
+	5550 3300 6600 3300
+Text Label 5850 3300 0    50   ~ 0
+AC-L
+Text Label 5850 3450 0    50   ~ 0
+AC-N
+Wire Wire Line
+	5450 3300 5450 3450
+Wire Wire Line
+	5450 3450 6450 3450
+Wire Wire Line
+	6450 3450 6450 3600
+Wire Wire Line
+	6450 3600 6600 3600
+Wire Wire Line
+	5350 3600 6350 3600
+Wire Wire Line
+	6350 3600 6350 4000
+Wire Wire Line
+	6350 4000 6500 4000
+Wire Wire Line
+	5350 3300 5350 3600
+Text Label 5850 3600 0    50   ~ 0
+AC-FG
+Text Label 5000 3650 1    50   ~ 0
+5.25V
+Text Label 4650 3650 1    50   ~ 0
+3.3V
+Text Label 5150 3650 1    50   ~ 0
+12V
+Text Label 5250 3650 1    50   ~ 0
+-5V
+Text Label 4800 3650 1    50   ~ 0
+GND
+Text Label 5200 4600 1    50   ~ 0
+5.25V
+Text Label 5200 5100 3    50   ~ 0
+5.25V
+Text Label 5300 4600 1    50   ~ 0
+5.25V
+Text Label 5300 5100 3    50   ~ 0
+5.25V
+Text Label 4800 4600 1    50   ~ 0
+3.3V
+Text Label 4700 4150 2    50   ~ 0
+3.3V
+Text Label 4800 5100 3    50   ~ 0
+3.3V
+Text Label 5000 4600 1    50   ~ 0
+GND
+Text Label 5100 4600 1    50   ~ 0
+GND
+Text Label 5000 5100 3    50   ~ 0
+GND
+Text Label 5100 5100 3    50   ~ 0
+GND
+Text Label 3800 4600 1    50   ~ 0
+12V
+Text Label 3900 4600 1    50   ~ 0
+12V
+Text Label 3800 5100 3    50   ~ 0
+12V
+Text Label 3900 5100 3    50   ~ 0
+12V
+Text Label 4000 4600 1    50   ~ 0
+GND
+Text Label 4000 5100 3    50   ~ 0
+GND
+Text Label 4100 4600 1    50   ~ 0
+GND
+Text Label 4100 5100 3    50   ~ 0
+GND
+$Comp
+L Jumper:SolderJumper_3_Open JP1
+U 1 1 5E420BC7
+P 4900 4150
+F 0 "JP1" H 4900 4355 50  0000 C CNN
+F 1 "SolderJumper_3_Open" H 4900 4300 50  0001 C CNN
+F 2 "Andrew-Custom:SolderJumper-3_P3.5mm_Open_Pad3.0x3.0mm" H 4900 4150 50  0001 C CNN
+F 3 "~" H 4900 4150 50  0001 C CNN
+	1    4900 4150
+	1    0    0    -1  
+$EndComp
+Text Label 5100 4150 0    50   ~ 0
+-5V
+Wire Wire Line
+	4900 4300 4900 4350
+Wire Wire Line
+	4900 4350 4550 4350
+Wire Wire Line
+	4550 4350 4550 5350
+Wire Wire Line
+	4550 5350 4900 5350
+Text Label 5900 4650 2    50   ~ 0
+5.25V
+Text Label 5900 4850 2    50   ~ 0
+3.3V
+Text Label 6600 4550 2    50   ~ 0
+GND
+Text Label 6600 4650 2    50   ~ 0
+12V
+Wire Wire Line
+	5000 3350 5000 3650
+Wire Wire Line
+	4650 3300 4650 3650
+Wire Wire Line
+	5150 3300 5150 3650
+Wire Wire Line
+	5250 3300 5250 3650
+Wire Wire Line
+	4800 3350 4800 3650
+Wire Wire Line
+	4900 4350 4900 4600
+Connection ~ 4900 4350
+Wire Wire Line
+	4900 5350 4900 5100
 $EndSCHEMATC
