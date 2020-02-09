@@ -1,5 +1,10 @@
+OSHPark Project
+https://oshpark.com/shared_projects/hy6nCUEE
+
 LCD Voltage Readout
 https://www.aliexpress.com/i/32840259666.html?spm=2114.12057483.0.0.206f62fepYHKGu
 
-OSHPark Project
-https://oshpark.com/shared_projects/hy6nCUEE
+J1 - Molex MiniFit JR 2x4 0039290083 (gold) 0039281083 (tin)
+J3 - Molex MiniFit JR 2x6 0039290123 (gold) 0039281123 (tin)
+J4 - JST B5P-VH-FB-B(LF)(SN)
+SW1 - C&K OS102011MA1QN1

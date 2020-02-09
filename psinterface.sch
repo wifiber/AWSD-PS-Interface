@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "AWSD PS Interface"
-Date "2020-02-07"
-Rev "0.1"
+Date "2020-02-08"
+Rev "0.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -57,8 +57,6 @@ F 3 "~" H 6800 3600 50  0001 C CNN
 	1    6800 3600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6450 3800 6600 3800
 Wire Wire Line
 	4650 3300 4650 3350
 Wire Wire Line
@@ -185,10 +183,6 @@ Wire Wire Line
 	5550 3300 6600 3300
 Wire Wire Line
 	5450 3300 5450 3350
-Wire Wire Line
-	5450 3350 6450 3350
-Wire Wire Line
-	6450 3350 6450 3800
 $Comp
 L Connector_Generic:Conn_01x01 J5
 U 1 1 5E3F093F
@@ -207,7 +201,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 3400 6400 4000
 Wire Wire Line
-	6400 4000 6600 4000
+	6400 4000 6500 4000
 $Comp
 L Connector_Generic:Conn_01x03 J6
 U 1 1 5E3F337E
@@ -270,13 +264,21 @@ Wire Wire Line
 	7000 4650 7000 4450
 Wire Wire Line
 	5750 4450 7000 4450
-NoConn ~ 6600 3600
 Wire Wire Line
 	6600 3300 6600 3400
 Wire Wire Line
-	6600 3500 6600 3400
-Connection ~ 6600 3400
+	6500 3350 6500 3600
 Wire Wire Line
-	6600 3700 6600 3800
-Connection ~ 6600 3800
+	6500 3600 6600 3600
+Wire Wire Line
+	5450 3350 6500 3350
+NoConn ~ 6600 3500
+NoConn ~ 6600 3700
+Wire Wire Line
+	6600 3800 6500 3800
+Wire Wire Line
+	6500 3800 6500 4000
+Connection ~ 6500 4000
+Wire Wire Line
+	6500 4000 6600 4000
 $EndSCHEMATC
