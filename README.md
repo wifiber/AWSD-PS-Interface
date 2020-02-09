@@ -15,4 +15,4 @@ There is mounting holes and solder points to add a small LCD voltage display - h
 A switch can be used to switch 3.3 or 5 volts to the LCD voltage display for verification and tuning.
 
 An OSHPark Project for this board can be found here:
-https://oshpark.com/shared_projects/sgf32C53
+https://oshpark.com/shared_projects/9xsjNT9v
