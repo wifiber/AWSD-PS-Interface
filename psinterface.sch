@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "AWSD PS Interface"
-Date "2020-02-08"
-Rev "0.3"
+Date "2020-03-03"
+Rev "0.4"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -75,7 +75,7 @@ U 1 1 5E3F093F
 P 6800 4000
 F 0 "J5" H 6900 4000 50  0000 L CNN
 F 1 "Conn_01x01" H 6880 3951 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6800 4000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 6800 4000 50  0001 C CNN
 F 3 "~" H 6800 4000 50  0001 C CNN
 	1    6800 4000
 	1    0    0    -1  
@@ -83,27 +83,25 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J6
 U 1 1 5E3F337E
-P 6800 4650
-F 0 "J6" H 6750 4450 50  0000 L CNN
-F 1 "Conn_01x03" H 7150 4600 50  0001 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill1mm" H 6800 4650 50  0001 C CNN
-F 3 "~" H 6800 4650 50  0001 C CNN
-	1    6800 4650
-	1    0    0    -1  
+P 6600 4400
+F 0 "J6" H 6550 4200 50  0000 L CNN
+F 1 "Conn_01x03" H 6950 4350 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6600 4400 50  0001 C CNN
+F 3 "~" H 6600 4400 50  0001 C CNN
+	1    6600 4400
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Switch:SW_SPDT SW1
 U 1 1 5E3F57A9
-P 6100 4750
-F 0 "SW1" H 6100 4950 50  0000 C CNN
-F 1 "SW_SPDT" H 6100 5050 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled" H 6100 4750 50  0001 C CNN
-F 3 "~" H 6100 4750 50  0001 C CNN
-	1    6100 4750
-	-1   0    0    1   
+P 7500 5150
+F 0 "SW1" H 7500 5350 50  0000 C CNN
+F 1 "SW_SPDT" H 7500 5450 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled" H 7500 5150 50  0001 C CNN
+F 3 "~" H 7500 5150 50  0001 C CNN
+	1    7500 5150
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6600 4750 6300 4750
 NoConn ~ 6600 3500
 NoConn ~ 6600 3700
 Wire Wire Line
@@ -236,13 +234,11 @@ Wire Wire Line
 	4550 4350 4550 5350
 Wire Wire Line
 	4550 5350 4900 5350
-Text Label 5900 4650 2    50   ~ 0
+Text Label 7700 5250 0    50   ~ 0
 5.25V
-Text Label 5900 4850 2    50   ~ 0
+Text Label 7700 5050 0    50   ~ 0
 3.3V
-Text Label 6600 4550 2    50   ~ 0
-GND
-Text Label 6600 4650 2    50   ~ 0
+Text Label 6600 4600 3    50   ~ 0
 12V
 Wire Wire Line
 	5000 3350 5000 3650
@@ -259,4 +255,51 @@ Wire Wire Line
 Connection ~ 4900 4350
 Wire Wire Line
 	4900 5350 4900 5100
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP3
+U 1 1 5E5FA165
+P 7000 5150
+F 0 "JP3" H 7000 5263 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 7000 5264 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 7000 5150 50  0001 C CNN
+F 3 "~" H 7000 5150 50  0001 C CNN
+	1    7000 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP2
+U 1 1 5E5FC726
+P 6250 5150
+F 0 "JP2" H 6250 5263 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 6250 5264 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6250 5150 50  0001 C CNN
+F 3 "~" H 6250 5150 50  0001 C CNN
+	1    6250 5150
+	-1   0    0    1   
+$EndComp
+Text Label 6550 5150 0    50   ~ 0
+GND
+Wire Wire Line
+	6800 5150 6450 5150
+Wire Wire Line
+	7000 5000 7000 4600
+Wire Wire Line
+	7000 4600 6700 4600
+Wire Wire Line
+	6500 4600 6250 4600
+Wire Wire Line
+	6250 4600 6250 5000
+Wire Wire Line
+	7300 5150 7250 5150
+Wire Wire Line
+	7250 5150 7250 5400
+Wire Wire Line
+	7250 5400 6000 5400
+Wire Wire Line
+	6000 5400 6000 5150
+Wire Wire Line
+	6000 5150 6050 5150
+Connection ~ 7250 5150
+Wire Wire Line
+	7250 5150 7200 5150
 $EndSCHEMATC
