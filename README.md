@@ -19,4 +19,5 @@ The AWSD arcade cabinet has 2 unused conductors in the 12-pin Molex connector. T
 I have included a 3-terminal jumper "JP1" on the interface board. It allows selection of 3.3V or -5V for these 2 pins. The rationale is that if you wanted to add the pins and wires to your AWSD arcade cabinet, you could add -5 Volt to the wiring harness and enjoy the games that require -5V.
 
 An OSHPark Project for this board can be found here:
-https://oshpark.com/shared_projects/chpeU0vp
+https://oshpark.com/shared_projects/lOjuucXz (0.5)
+https://oshpark.com/shared_projects/chpeU0vp (0.4)
